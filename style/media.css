@@ -1,0 +1,143 @@
+@media(max-width:1075px) {
+
+    .section,
+    .main-content-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content-1-img {
+        max-width: 400px;
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .main-content-1-desc {
+        margin-right: 0;
+    }
+
+    .section:nth-child(2) {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main-content-2-desc {
+        margin-left: 0;
+    }
+
+    .main-content-3 {
+
+        margin: 80px 0;
+    }
+
+    .line {
+        display: none;
+    }
+
+
+    .main-content-3-img {
+        padding: 50px 0;
+        
+    }
+
+
+
+    .main-content-cards {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(254px, 254px));
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    .header-title-txt {
+        text-align: center;
+        line-height: 100px;
+    }
+
+
+}
+
+@media(max-width:540px) {
+
+
+    .header-title {
+        padding: 150px 0 50px 0;
+    }
+
+    .header-nav {  
+        padding: 10px 0;
+    }
+
+    
+
+    .header-title-txt {
+        line-height: 60px;
+        font-size: 50px;
+    }
+
+    .main-content-1-img {
+        width: 90%;
+        min-width: 0px;
+    }
+
+    .main-content-3-desc-l, .main-content-3-desc-r {
+        text-align: center;
+    }
+
+    .main-content-2-desc, .main-content-1-desc {
+        text-align: justify;
+    }
+
+    .footer-icons {
+        display: none;
+    
+    }
+
+    .footer-nav-list {
+        justify-content: space-around;
+    }
+
+    .nav-list ul {
+        display: none;
+    }
+
+    header {
+ background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%);
+ min-height:  300px;
+    }
+
+    .main-content-2-img {
+        width: 100%;
+    }
+
+    .footer-list li:not(:last-of-type) a {
+        margin-right: 15px;
+    }
+
+    .main-content-3-desc {
+        margin: 0;
+    }
+
+    .main-content-3-img {
+        width: 60%;
+    }
+
+}
+
+@media(max-width:321px) {
+    
+
+    .footer__logo {
+        display: none;
+    }
+
+    .footer-nav-list {
+        justify-content: center;
+    }
+
+    .footer-list li:not(:last-of-type) a {
+        margin-right: 30px;
+    }
+
+}
